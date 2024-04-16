@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+.box {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+  }
+  
+.box:hover {
+    animation-name: rotate;
+    animation-duration: 0.7s;
+    animation-iteration-count: 3;
+  }
+
+@keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
